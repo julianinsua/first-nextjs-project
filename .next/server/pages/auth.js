@@ -88,42 +88,108 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/auth/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/auth/index.js":
-/*!*****************************!*\
-  !*** ./pages/auth/index.js ***!
-  \*****************************/
-/*! exports provided: default */
+/***/ 1:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("bFWz");
+
+
+/***/ }),
+
+/***/ "F5FC":
+/***/ (function(module, exports) {
+
+module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ "HJQg":
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
+
+/***/ }),
+
+/***/ "bFWz":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\nvar _jsxFileName = \"/home/julian/Code/first-nextjs-project/pages/auth/index.js\";\n\n\nconst AuthIndexPage = () => {\n  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"div\", {\n    children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__[\"jsxDEV\"])(\"h1\", {\n      children: \"The Auth Index Page\"\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 6,\n      columnNumber: 4\n    }, undefined)\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 5,\n    columnNumber: 3\n  }, undefined);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (AuthIndexPage);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9hdXRoL2luZGV4LmpzPzZjNTUiXSwibmFtZXMiOlsiQXV0aEluZGV4UGFnZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUVBLE1BQU1BLGFBQWEsR0FBRyxNQUFNO0FBQzNCLHNCQUNDO0FBQUEsMkJBQ0M7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFERDtBQUFBO0FBQUE7QUFBQTtBQUFBLGVBREQ7QUFLQSxDQU5EOztBQVFlQSw0RUFBZiIsImZpbGUiOiIuL3BhZ2VzL2F1dGgvaW5kZXguanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5cbmNvbnN0IEF1dGhJbmRleFBhZ2UgPSAoKSA9PiB7XG5cdHJldHVybiAoXG5cdFx0PGRpdj5cblx0XHRcdDxoMT5UaGUgQXV0aCBJbmRleCBQYWdlPC9oMT5cblx0XHQ8L2Rpdj5cblx0KTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEF1dGhJbmRleFBhZ2U7XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/auth/index.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__("F5FC");
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+
+// EXTERNAL MODULE: external "styled-jsx/style"
+var style_ = __webpack_require__("HJQg");
+var style_default = /*#__PURE__*/__webpack_require__.n(style_);
+
+// CONCATENATED MODULE: ./components/User.js
+
+
+
+
+const User = props => {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+    className: "jsx-1937089723",
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h1", {
+      className: "jsx-1937089723",
+      children: props.name
+    }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("p", {
+      className: "jsx-1937089723",
+      children: ["Age: ", props.age]
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(style_default.a, {
+      id: "1937089723",
+      children: ["div.jsx-1937089723{border:1px solid #eee;box-shadow:0 2px 3px #ccc;padding:20px;text-align:center;}"]
+    })]
+  });
+};
+/* harmony default export */ var components_User = (User);
+// CONCATENATED MODULE: ./pages/auth/index.js
+
+
+
+
+
+const AuthIndexPage = props => {
+  return /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
+    children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("h1", {
+      children: ["The Auth Index Page of ", props.appName]
+    }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(components_User, {
+      name: "Max",
+      age: 28
+    })]
+  });
+};
+
+AuthIndexPage.getInitialProps = context => {
+  console.log(context);
+  const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve({
+        appName: "SuperApp"
+      });
+    }, 1000);
+  });
+  return promise;
+};
+
+/* harmony default export */ var auth = __webpack_exports__["default"] = (AuthIndexPage);
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
+/***/ "cDcd":
 /***/ (function(module, exports) {
 
-eval("module.exports = require(\"react\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWFjdFwiPzU4OGUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoicmVhY3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJyZWFjdFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///react\n");
-
-/***/ }),
-
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = require(\"react/jsx-dev-runtime\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJyZWFjdC9qc3gtZGV2LXJ1bnRpbWVcIj9jZDkwIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6InJlYWN0L2pzeC1kZXYtcnVudGltZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcInJlYWN0L2pzeC1kZXYtcnVudGltZVwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///react/jsx-dev-runtime\n");
+module.exports = require("react");
 
 /***/ })
 
